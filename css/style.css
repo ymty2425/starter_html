@@ -1,0 +1,65 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #306998;  /* Python blue */
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: #FFD43B;  /* Python yellow */
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #FFD43B;  /* Python yellow */
+    color: #306998;  /* Python blue */
+}
+
+h1, h2, h3 {
+    color: #306998;  /* Python blue */
+}
+
+main {
+    padding: 20px;
+}
+
+img, video {
+    max-width: 100%;
+    height: auto;
+}
+
+@media only screen and (max-width: 600px) {
+    nav li {
+        float: none;
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+}
