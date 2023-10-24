@@ -12,7 +12,7 @@ nav ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #265479;
+    background-color: #265479;  /* Python blue */
 }
 
 nav li {
@@ -21,19 +21,19 @@ nav li {
 
 nav li a {
     display: block;
-    color: #FFD43B;
+    color: #FFD43B;  /* Python yellow */
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 nav li a:hover {
-    background-color: #FFD43B; 
-    color: #265479;
+    background-color: #FFD43B;  /* Python yellow */
+    color: #265479;  /* Python blue */
 }
 
 h1, h2, h3 {
-    color: #265479;
+    color: #265479;  /* Python blue */
 }
 
 main {
@@ -64,8 +64,8 @@ img, video {
     }
 }
 nav li a.active {
-    background-color: #FFD43B;
-    color: #265479;
+    background-color: #FFD43B;  /* Python yellow */
+    color: #265479;  /* Python blue */
 }
 
 /* Typography */
@@ -214,4 +214,18 @@ main > div a:hover {
 }
 .gallery img:hover {
     transform: scale(1.05);
+}
+
+a.skip-link:focus {
+    position: fixed;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    background-color: #265479;
+    color: #FFD43B; 
+    font-size: 1.2em;
+    z-index: 1000;
+    border: 2px solid #FFD43B;
+    border-radius: 8px;
 }
