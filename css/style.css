@@ -12,7 +12,7 @@ nav ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #265479;  /* Python blue */
+    background-color: #265479; 
 }
 
 nav li {
@@ -21,19 +21,19 @@ nav li {
 
 nav li a {
     display: block;
-    color: #FFD43B;  /* Python yellow */
+    color: #FFD43B;  
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 nav li a:hover {
-    background-color: #FFD43B;  /* Python yellow */
-    color: #265479;  /* Python blue */
+    background-color: #FFD43B;  
+    color: #265479; 
 }
 
 h1, h2, h3 {
-    color: #265479;  /* Python blue */
+    color: #265479; 
 }
 
 main {
@@ -63,9 +63,25 @@ img, video {
         font-size: 16px;
     }
 }
-nav li a.active {
-    background-color: #FFD43B;  /* Python yellow */
-    color: #265479;  /* Python blue */
+
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 50%;
+    padding: 6px;
+    transform: translateX(-50%);
+
+    padding: 10px;
+    background: #ffffff;
+    color: #265479;
+    text-decoration: none;
+    z-index: 1000;
+    border-radius: 4px;
+    transition: top 1s;
+}
+
+.skip-link:focus {
+    top: 6px;
 }
 
 /* Typography */
@@ -91,7 +107,7 @@ nav li a.active, nav li a:hover {
     background-color: #f4f4f4;
 }
 h1, h2, h3 {
-    color: #2c3e50;
+    color: #265479;
 }
 
 /* Hover Effects */
@@ -182,7 +198,7 @@ main > div span {
 
 /* Headings & Text */
 main > div h3 {
-    color: #2980b9;
+    color: #af5e17;
     margin-top: 20px;
 }
 main > div p {
@@ -214,18 +230,4 @@ main > div a:hover {
 }
 .gallery img:hover {
     transform: scale(1.05);
-}
-
-a.skip-link:focus {
-    position: fixed;
-    top: 10px;
-    left: 50%;
-    transform: translateX(-50%);
-    padding: 10px 20px;
-    background-color: #265479;
-    color: #FFD43B; 
-    font-size: 1.2em;
-    z-index: 1000;
-    border: 2px solid #FFD43B;
-    border-radius: 8px;
 }
