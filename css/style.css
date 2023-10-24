@@ -208,12 +208,15 @@ main > div p {
 
 /* Interactive Elements */
 main > div a {
-    color: #0066ffc7;
-    text-decoration: none;
-    transition: color 0.3s;
+    color: #4000fff6;
+    text-decoration: underline;
+    font-weight: bold;
+    border-bottom: 1px dotted #4000fff6;
+    transition: color 0.3s, border-color 0.3s;
 }
 main > div a:hover {
-    color: #34495e;
+    color: #3d75e4;
+    border-bottom-color: #3d75e4;
 }
 
 /* Photo Gallery Grid Layout */
