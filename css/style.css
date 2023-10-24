@@ -191,7 +191,7 @@ main > div img {
 }
 main > div span {
     display: block;
-    color: #7f8c8d;
+    color: #1e56b1;
     font-weight: 500;
     margin-bottom: 10px;
 }
@@ -203,12 +203,12 @@ main > div h3 {
 }
 main > div p {
     margin: 20px 0;
-    color: #2c3e50;
+    color: #34495e;
 }
 
 /* Interactive Elements */
 main > div a {
-    color: #2980b9;
+    color: #0066ffc7;
     text-decoration: none;
     transition: color 0.3s;
 }
