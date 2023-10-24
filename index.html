@@ -1,17 +1,22 @@
 <!DOCTYPE html>
+
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="css/html5reset.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <link href="css/html5reset.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
     <title>Pets</title>
 </head>
+
 <body>
-    <a href = "#main">Skip to Main Content</a>
+    <a href="#main" onblur="this.style.top = '-40px';" onfocus="this.style.top = '0';"
+        style="position: absolute; top: -40px; left: 0; background: #FFF; padding: 5px; z-index: 100; transition: top 0.2s;">Skip
+        to Main Content</a>
     <nav>
         <ul>
-            <li><a href="index.html">Pets</a></li>
+            <li><a class="active" href="index.html">Pets</a></li>
             <li><a href="recipes.html">Recipes</a></li>
             <li><a href="travel.html">Travel</a></li>
         </ul>
@@ -20,19 +25,26 @@
     <main id="main">
         <div>
             <h2>Bacon Q Dog</h2>
-            <img src="images/bacon.jpg" width = "400" alt="Brown labradoodle wearing colorful lei">
-
-            <p>Bacon Q. Dog is a 9yr old labradoodle. He prefers to spend his days lounging among the three different beds/couches that his family has gifted him. He enjoys a walk or two around the neighborhood, as long as he can pretend that he doesn't see any of the other animals to avoid the embarrassment of not wanting to admit he has no wolf-like skills in chasing them.</p> 
-            <P>At night just as the rest of the family is ready to relax, Bacon suddenly wants to release all of his energy. He will place his toys on a mini couch and frantically drag the couch around, giving his toys "a ride." There is also a lot of rolling. Lots and lots of rolling.</P>
+            <figure><img alt="Brown labradoodle wearing colorful lei" src="images/bacon.jpg" width="400" /></figure>
+            <p>Bacon Q. Dog is a 9yr old labradoodle. He prefers to spend his days lounging among the three different
+                beds/couches that his family has gifted him. He enjoys a walk or two around the neighborhood, as long as
+                he can pretend that he doesn't see any of the other animals to avoid the embarrassment of not wanting to
+                admit he has no wolf-like skills in chasing them.</p>
+            <p>At night just as the rest of the family is ready to relax, Bacon suddenly wants to release all of his
+                energy. He will place his toys on a mini couch and frantically drag the couch around, giving his toys "a
+                ride." There is also a lot of rolling. Lots and lots of rolling.</p>
             <h3>Photo Gallery</h3>
-            <img src="images/bacon_bandana.JPG" width ="200" alt = "Brown labradoodle wearing an orange bandana">
-            <img src="images/bacon_graduation.JPG"  width ="200" alt="Small labradoodle puppy wearing a graduation cap and gown">
-            <video width="200"  controls>
-                <source src="images/bacon_agility.mov">
-                Your browser does not support the video tag.  This was a video of a girl and dog demonstrating a sit and stay procedure
+            <figure><img alt="Brown labradoodle wearing an orange bandana" src="images/bacon_bandana.JPG" width="200" />
+            </figure>
+            <figure><img alt="Small labradoodle puppy wearing a graduation cap and gown"
+                    src="images/bacon_graduation.JPG" width="200" /></figure>
+            <video controls="" width="200">
+                <source src="images/bacon_agility.mov" />
+                Your browser does not support the video tag. This was a video of a girl and dog demonstrating a sit and
+                stay procedure
             </video>
-            <img src="images/bacon_halloween.JPG"  width ="200" alt="Brown labradoodle wearing a pirate costume">
-
+            <figure><img alt="Brown labradoodle wearing a pirate costume" src="images/bacon_halloween.JPG"
+                    width="200" /></figure>
             <h3>Likes</h3>
             <ul>
                 <li>Belly rubs</li>
@@ -40,19 +52,17 @@
                 <li>Sneaking onto the couch</li>
             </ul>
             <!-- Colleen van Lent -->
-        
         </div>
-
         <!-- Pet 2: Whiskers -->
         <div>
             <h2>Whiskers the Cat</h2>
-            <img src="images/tabby_lying_down.png" width="400" alt="Grey tabby cat lying down">
-            
-            <p>Whiskers is a 5-year-old grey tabby with a penchant for mischief. His days consist of sunbathing by the window, knocking over vases, and playfully attacking toes. Despite his mischievous tendencies, he has an endearing purr that will melt your heart.</p>
-            
+            <figure><img alt="Grey tabby cat lying down" src="images/tabby_lying_down.png" width="400" /></figure>
+            <p>Whiskers is a 5-year-old grey tabby with a penchant for mischief. His days consist of sunbathing by the
+                window, knocking over vases, and playfully attacking toes. Despite his mischievous tendencies, he has an
+                endearing purr that will melt your heart.</p>
             <h3>Photo Gallery</h3>
-            <img src="images/tabby_playing_toy.png" width="200" alt="Whiskers playing with a toy">
-            <img src="images/tabby_window.png" width="200" alt="Whiskers looking out the window">
+            <figure><img alt="Whiskers playing with a toy" src="images/tabby_playing_toy.png" width="200" /></figure>
+            <figure><img alt="Whiskers looking out the window" src="images/tabby_window.png" width="200" /></figure>
             <h3>Likes</h3>
             <ul>
                 <li>Chasing laser pointers</li>
@@ -60,16 +70,16 @@
                 <li>Meowing for treats</li>
             </ul>
         </div>
-
         <!-- Pet 3: Goldie -->
         <div>
             <h2>Goldie the Goldfish</h2>
-            <img src="images/goldfish_swimming.png" width="400" alt="Golden goldfish swimming in a tank">
-            
-            <p>Goldie, not to be mistaken for just any ordinary fish, has a vibrant golden hue that gleams under the tank lights. She loves to swim through her castle and enjoys the occasional fish flake treat.</p>
+            <figure><img alt="Golden goldfish swimming in a tank" src="images/goldfish_swimming.png" width="400" />
+            </figure>
+            <p>Goldie, not to be mistaken for just any ordinary fish, has a vibrant golden hue that gleams under the
+                tank lights. She loves to swim through her castle and enjoys the occasional fish flake treat.</p>
             <h3>Photo Gallery</h3>
-            <img src="images/goldfish_plant.png" width="200" alt="Goldie near an aquatic plant">
-            <img src="images/goldfish_closeup.png" width="200" alt="Goldie's close-up">
+            <figure><img alt="Goldie near an aquatic plant" src="images/goldfish_plant.png" width="200" /></figure>
+            <figure><img alt="Goldie's close-up" src="images/goldfish_closeup.png" width="200" /></figure>
             <h3>Likes</h3>
             <ul>
                 <li>Swimming through hoops</li>
@@ -77,15 +87,15 @@
                 <li>Having her tank cleaned</li>
             </ul>
         </div>
-        
         <!-- Pet 4: Rocky -->
         <div>
             <h2>Rocky the Hamster</h2>
-            <img src="images/hamster_running.png" width="400" alt="Hamster running on a wheel">
-            <p>Rocky is a nocturnal adventurer. His nights are filled with endless runs on his wheel and digging tunnels. He's got a soft spot for sunflower seeds and will often stash them in his cheeks for later.</p>
+            <figure><img alt="Hamster running on a wheel" src="images/hamster_running.png" width="400" /></figure>
+            <p>Rocky is a nocturnal adventurer. His nights are filled with endless runs on his wheel and digging
+                tunnels. He's got a soft spot for sunflower seeds and will often stash them in his cheeks for later.</p>
             <h3>Photo Gallery</h3>
-            <img src="images/hamster_munching.png" width="200" alt="Rocky munching on seeds">
-            <img src="images/hamster_peeking.png" width="200" alt="Rocky peeking out of his burrow">
+            <figure><img alt="Rocky munching on seeds" src="images/hamster_munching.png" width="200" /></figure>
+            <figure><img alt="Rocky peeking out of his burrow" src="images/hamster_peeking.png" width="200" /></figure>
             <h3>Likes</h3>
             <ul>
                 <li>Running on his wheel</li>
@@ -93,15 +103,19 @@
                 <li>Hoarding food in his cheeks</li>
             </ul>
         </div>
-        
         <!-- Pet 5: Bella -->
         <div>
             <h2>Bella the Parrot</h2>
-            <img src="images/parrot_perched.png" width="400" alt="Colorful parrot perched on a branch">
-            <p>Bella is a vibrant and talkative parrot who loves to mimic sounds around the house. Don't be surprised if she greets you with a 'Hello!' or erupts into a bout of laughter. She enjoys fruits and occasionally will dance if you play some tunes!</p>
+            <figure><img alt="Colorful parrot perched on a branch" src="images/parrot_perched.png" width="400" />
+            </figure>
+            <p>Bella is a vibrant and talkative parrot who loves to mimic sounds around the house. Don't be surprised if
+                she greets you with a 'Hello!' or erupts into a bout of laughter. She enjoys fruits and occasionally
+                will dance if you play some tunes!</p>
             <h3>Photo Gallery</h3>
-            <img src="images/parrot_enjoying_fruits.png" width="200" alt="Bella enjoying some fruits">
-            <img src="images/parrot_showing.png" width="200" alt="Bella showing her vibrant feathers">
+            <figure><img alt="Bella enjoying some fruits" src="images/parrot_enjoying_fruits.png" width="200" />
+            </figure>
+            <figure><img alt="Bella showing her vibrant feathers" src="images/parrot_showing.png" width="200" />
+            </figure>
             <h3>Likes</h3>
             <ul>
                 <li>Mimicking sounds</li>
@@ -109,15 +123,16 @@
                 <li>Dancing to music</li>
             </ul>
         </div>
-
         <!-- Pet 6: Luna -->
         <div>
             <h2>Luna the Hedgehog</h2>
-            <img src="images/hedgehog_curled_up.png" width="400" alt="Luna curled up into a ball">
-            <p>Luna is a shy but curious hedgehog. When she's not curled up into a spiky ball, she's out exploring her surroundings, especially if she smells something delicious. Luna has a soft underbelly and loves a gentle belly rub.</p>
+            <figure><img alt="Luna curled up into a ball" src="images/hedgehog_curled_up.png" width="400" /></figure>
+            <p>Luna is a shy but curious hedgehog. When she's not curled up into a spiky ball, she's out exploring her
+                surroundings, especially if she smells something delicious. Luna has a soft underbelly and loves a
+                gentle belly rub.</p>
             <h3>Photo Gallery</h3>
-            <img src="images/hedgehog_exploring.png" width="200" alt="Luna exploring the grass">
-            <img src="images/hedgehog_nibbling.png" width="200" alt="Luna nibbling on a treat">
+            <figure><img alt="Luna exploring the grass" src="images/hedgehog_exploring.png" width="200" /></figure>
+            <figure><img alt="Luna nibbling on a treat" src="images/hedgehog_nibbling.png" width="200" /></figure>
             <h3>Likes</h3>
             <ul>
                 <li>Evening explorations</li>
@@ -125,15 +140,18 @@
                 <li>Mealworm treats</li>
             </ul>
         </div>
-
         <!-- Pet 7: Blaze -->
         <div>
             <h2>Blaze the Bearded Dragon</h2>
-            <img src="images/bearded_dragon_basking.png" width="400" alt="Blaze basking under a lamp">
-            <p>Blaze is a laid-back bearded dragon who enjoys basking under his heat lamp. He's got a distinctive spiky beard and a taste for crickets. On occasion, you'll catch him waving one of his limbs in a friendly gesture.</p>
+            <figure><img alt="Blaze basking under a lamp" src="images/bearded_dragon_basking.png" width="400" />
+            </figure>
+            <p>Blaze is a laid-back bearded dragon who enjoys basking under his heat lamp. He's got a distinctive spiky
+                beard and a taste for crickets. On occasion, you'll catch him waving one of his limbs in a friendly
+                gesture.</p>
             <h3>Photo Gallery</h3>
-            <img src="images/bearded_dragon_eyeing.png" width="200" alt="Blaze eyeing a cricket">
-            <img src="images/bearded_dragon_in_relaxed.png" width="200" alt="Blaze in a relaxed pose">
+            <figure><img alt="Blaze eyeing a cricket" src="images/bearded_dragon_eyeing.png" width="200" /></figure>
+            <figure><img alt="Blaze in a relaxed pose" src="images/bearded_dragon_in_relaxed.png" width="200" />
+            </figure>
             <h3>Likes</h3>
             <ul>
                 <li>Basking in the heat</li>
@@ -142,6 +160,6 @@
             </ul>
         </div>
     </main>
-    
 </body>
+
 </html>

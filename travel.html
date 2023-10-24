@@ -1,137 +1,151 @@
 <!DOCTYPE html>
+
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <link href="css/html5reset.css" rel="stylesheet" type="text/css" />
+    <link href="css/tyle.css" rel="stylesheet" type="text/css" />
     <title>Travel</title>
 </head>
+
 <body>
-    <a href = "#main">Skip to Main Content</a>
+    <a href="#main" onblur="this.style.top = '-40px';" onfocus="this.style.top = '0';"
+        style="position: absolute; top: -40px; left: 0; background: #FFF; padding: 5px; z-index: 100; transition: top 0.2s;">Skip
+        to Main Content</a>
     <nav>
         <ul>
             <li><a href="index.html">Pets</a></li>
             <li><a href="recipes.html">Recipes</a></li>
-            <li><a href="travel.html">Travel</a></li>
+            <li><a class="active" href="travel.html">Travel</a></li>
         </ul>
     </nav>
     <h1>Stunning Travel Destinations</h1>
-    <main id="main">
+    <main id="main" style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
         <div>
             <h2>Yellowstone</h2>
-    
-            <img src="images/yellowstone_cauldron.gif" width="400" alt="Bubbling cauldron.">
-            <img src="images/yellowstone_cauldron.jpg" width = "400" alt="Bubbling cauldron">
-
+            <figure><img alt="Bubbling cauldron." src="images/yellowstone_cauldron.gif" width="400" /></figure>
+            <figure><img alt="Bubbling cauldron" src="images/yellowstone_cauldron.jpg" width="400" /></figure>
             <h3>Geographical Location: North America</h3>
-            <p>Yellowstone is the first national park in the United States. It covers over 2.2 million acres, and provides an opportunity to see wildlife and explore geothermal areas.  In fact, Yellowstone contains about half the world's active geysers.</p>
-            <p>These unique opportunities also bring out a lot of bad decisions among the tourists.  Every year visitors injure themselves or the wildlife by getting close to the animals.  You  can see examples of people making bad decisions by visiting <a href ="https://www.facebook.com/groups/yellowstonenationalparkinvasionoftheidiots/">Yellowstone National Park: Invasion of the Idiots</a>, <a href="https://www.instagram.com/touronsofyellowstone/?hl=en">Tourons of Yellowstone</a>, or  <a href="https://cowboystatedaily.com/">Cowboy State Daily</a>.</p>
-
+            <p>Yellowstone is the first national park in the United States. It covers over 2.2 million acres, and
+                provides an opportunity to see wildlife and explore geothermal areas. In fact, Yellowstone contains
+                about half the world's active geysers.</p>
+            <p>These unique opportunities also bring out a lot of bad decisions among the tourists. Every year visitors
+                injure themselves or the wildlife by getting close to the animals. You can see examples of people making
+                bad decisions by visiting <a
+                    href="https://www.facebook.com/groups/yellowstonenationalparkinvasionoftheidiots/">Yellowstone
+                    National Park: Invasion of the Idiots</a>, <a
+                    href="https://www.instagram.com/touronsofyellowstone/?hl=en">Tourons of Yellowstone</a>, or <a
+                    href="https://cowboystatedaily.com/">Cowboy State Daily</a>.</p>
             <h3>Photo Gallery</h3>
             <figure>
-                <img src="images/yellowstone_travertine.JPG" width = "200" alt="A large mound of multi-colored travertine">
+                <img alt="A large mound of multi-colored travertine" src="images/yellowstone_travertine.JPG"
+                    width="200" />
                 <figcaption>Mammoth Hot Springs has a number of actively forming Travertine terraces.</figcaption>
             </figure>
-
             <figure>
-                <img src="images/yellowstone_sunset.jpg" width = "200" alt="Sunset over mountains with some charred trees in the foreground">
-                <figcaption>The drive to Lamar Valley requires some dangerous roads.  But the result is amazing sunset views.</figcaption>
+                <img alt="Sunset over mountains with some charred trees in the foreground"
+                    src="images/yellowstone_sunset.jpg" width="200" />
+                <figcaption>The drive to Lamar Valley requires some dangerous roads. But the result is amazing sunset
+                    views.</figcaption>
             </figure>
-
-
             <figure>
-                <video width="200"  controls>
-                    <source src="images/yellowstone_prism.MOV">
+                <video controls="" width="200">
+                    <source src="images/yellowstone_prism.MOV" />
                     Your browser does not support the video tag.
                 </video>
-                <figcaption>The multicolored layers get their hues from different species of bacteria living in the cooler water around the spring.</figcaption>
+                <figcaption>The multicolored layers get their hues from different species of bacteria living in the
+                    cooler water around the spring.</figcaption>
             </figure>
-
-
             <figure>
-                <video width="200"  controls>
-                    <source src="images/yellowstone_buffalo.MOV">
+                <video controls="" width="200">
+                    <source src="images/yellowstone_buffalo.MOV" />
                     Your browser does not support the video tag.
                 </video>
-                <figcaption>The buffalo were so common along the roads in Yellowstone that our mantra became "If it ain't lickin the car, we aren't stopping."</figcaption>
+                <figcaption>The buffalo were so common along the roads in Yellowstone that our mantra became "If it
+                    ain't lickin the car, we aren't stopping."</figcaption>
             </figure>
-
             <figure>
-                <img src="images/yellowstone_sulphur_springs.JPG" width = "200" alt="A large spring with clouds of sulfur smoke rising from it.">
-                
-                <figcaption>If you can handle the odor, the Yellowstone Sulphur Springs is a great place to hike.</figcaption>
+                <img alt="A large spring with clouds of sulfur smoke rising from it."
+                    src="images/yellowstone_sulphur_springs.JPG" width="200" />
+                <figcaption>If you can handle the odor, the Yellowstone Sulphur Springs is a great place to hike.
+                </figcaption>
             </figure>
             <!-- Colleen van Lent -->
         </div>
-        
-        
         <!-- Location 2: Grand Canyon -->
         <div>
             <h2>Grand Canyon</h2>
-            
-            <img src="images/grand_canyon_overlook.jpeg" width="400" alt="Grand Canyon Overlook">
-            <img src="images/grand_canyon_river.jpeg" width="400" alt="Colorado River at the base of the Grand Canyon">
-
+            <figure><img alt="Grand Canyon Overlook" src="images/grand_canyon_overlook.jpeg" width="400" /></figure>
+            <figure><img alt="Colorado River at the base of the Grand Canyon" src="images/grand_canyon_river.jpeg"
+                    width="400" /></figure>
             <h3>Geographical Location: North America</h3>
-            <p>The Grand Canyon, carved by the Colorado River, is a vast and impressive geological wonder in Arizona. Stretching over 277 miles, it offers breathtaking vistas and a glimpse into Earth's history. Every year, millions of tourists visit to hike, raft, or simply take in the spectacular scenery.</p>
-            <p>While the canyon's beauty is undeniable, visitors need to be prepared for the region's extreme weather and must respect safety guidelines, especially when hiking or rafting.</p>
-
+            <p>The Grand Canyon, carved by the Colorado River, is a vast and impressive geological wonder in Arizona.
+                Stretching over 277 miles, it offers breathtaking vistas and a glimpse into Earth's history. Every year,
+                millions of tourists visit to hike, raft, or simply take in the spectacular scenery.</p>
+            <p>While the canyon's beauty is undeniable, visitors need to be prepared for the region's extreme weather
+                and must respect safety guidelines, especially when hiking or rafting.</p>
             <h3>Photo Gallery</h3>
             <figure>
-                <img src="images/grand_canyon_skywalk.jpeg" width="200" alt="Glass bridge extending over the canyon">
-                <figcaption>The Grand Canyon Skywalk lets visitors experience the sensation of walking over the void.</figcaption>
+                <img alt="Glass bridge extending over the canyon" src="images/grand_canyon_skywalk.jpeg" width="200" />
+                <figcaption>The Grand Canyon Skywalk lets visitors experience the sensation of walking over the void.
+                </figcaption>
             </figure>
-
             <figure>
-                <img src="images/grand_canyon_hikers.jpeg" width="200" alt="Hikers descending into the canyon">
-                <figcaption>Descending into the canyon offers an entirely new perspective and challenging terrain.</figcaption>
+                <img alt="Hikers descending into the canyon" src="images/grand_canyon_hikers.jpeg" width="200" />
+                <figcaption>Descending into the canyon offers an entirely new perspective and challenging terrain.
+                </figcaption>
             </figure>
         </div>
-
         <!-- Location 3: Santorini, Greece -->
         <div>
             <h2>Santorini, Greece</h2>
-            
-            <img src="images/santorini_sunset.webp" width="400" alt="Sunset in Santorini with white buildings">
-            <img src="images/santorini_blue_domes.webp" width="400" alt="Blue domes of Santorini">
-
+            <figure><img alt="Sunset in Santorini with white buildings" src="images/santorini_sunset.webp"
+                    width="400" /></figure>
+            <figure><img alt="Blue domes of Santorini" src="images/santorini_blue_domes.webp" width="400" /></figure>
             <h3>Geographical Location: Europe</h3>
-            <p>Santorini is an island in the southern Aegean Sea, known for its dramatic views, stunning sunsets, and iconic white-washed buildings with blue domes. The island's unique geography, a result of ancient volcanic activity, makes it a popular destination for travelers.</p>
-            <p>Visitors can explore ancient ruins, relax on the beaches, or indulge in the island's rich gastronomy. It's also a hotspot for wedding and honeymoon destinations.</p>
-
+            <p>Santorini is an island in the southern Aegean Sea, known for its dramatic views, stunning sunsets, and
+                iconic white-washed buildings with blue domes. The island's unique geography, a result of ancient
+                volcanic activity, makes it a popular destination for travelers.</p>
+            <p>Visitors can explore ancient ruins, relax on the beaches, or indulge in the island's rich gastronomy.
+                It's also a hotspot for wedding and honeymoon destinations.</p>
             <h3>Photo Gallery</h3>
             <figure>
-                <img src="images/santorini_red_beach.jpeg" width="200" alt="Unique red sandy beach in Santorini">
+                <img alt="Unique red sandy beach in Santorini" src="images/santorini_red_beach.jpeg" width="200" />
                 <figcaption>Red Beach is famous for its unique color, a result of volcanic activity.</figcaption>
             </figure>
-
             <figure>
-                <img src="images/santorini_wine.jpeg" width="200" alt="Glass of wine overlooking the Aegean Sea">
-                <figcaption>Santorini's wineries offer tastings with a view, a must-do experience on the island.</figcaption>
+                <img alt="Glass of wine overlooking the Aegean Sea" src="images/santorini_wine.jpeg" width="200" />
+                <figcaption>Santorini's wineries offer tastings with a view, a must-do experience on the island.
+                </figcaption>
             </figure>
         </div>
-
         <!-- Location 4: Machu Picchu, Peru -->
         <div>
             <h2>Machu Picchu, Peru</h2>
-            
-            <img src="images/machu_picchu_morning.jpeg" width="400" alt="Machu Picchu in the morning mist">
-            <img src="images/machu_picchu_llama.jpeg" width="400" alt="Llama overlooking Machu Picchu">
-
+            <figure><img alt="Machu Picchu in the morning mist" src="images/machu_picchu_morning.jpeg" width="400" />
+            </figure>
+            <figure><img alt="Llama overlooking Machu Picchu" src="images/machu_picchu_llama.jpeg" width="400" />
+            </figure>
             <h3>Geographical Location: South America</h3>
-            <p>Machu Picchu, an ancient Incan city set high in the Andes Mountains, is one of the most iconic archaeological sites in the world. Built in the 15th century and later abandoned, it remains a mystery how the massive stones used in its construction were transported.</p>
-            <p>The site, which can be reached by hiking or train, offers visitors a chance to step back in time and experience the magic of ancient Incan architecture and engineering.</p>
-
+            <p>Machu Picchu, an ancient Incan city set high in the Andes Mountains, is one of the most iconic
+                archaeological sites in the world. Built in the 15th century and later abandoned, it remains a mystery
+                how the massive stones used in its construction were transported.</p>
+            <p>The site, which can be reached by hiking or train, offers visitors a chance to step back in time and
+                experience the magic of ancient Incan architecture and engineering.</p>
             <h3>Photo Gallery</h3>
             <figure>
-                <img src="images/machu_picchu_stone.jpeg" width="200" alt="Detailed stone work in Machu Picchu">
+                <img alt="Detailed stone work in Machu Picchu" src="images/machu_picchu_stone.jpeg" width="200" />
                 <figcaption>The precision of Incan stone masonry is still a marvel to modern engineers.</figcaption>
             </figure>
-
             <figure>
-                <img src="images/machu_picchu_view.jpeg" width="200" alt="View of the Andes from Machu Picchu">
-                <figcaption>The panoramic views of the Andes from Machu Picchu are nothing short of breathtaking.</figcaption>
+                <img alt="View of the Andes from Machu Picchu" src="images/machu_picchu_view.jpeg" width="200" />
+                <figcaption>The panoramic views of the Andes from Machu Picchu are nothing short of breathtaking.
+                </figcaption>
             </figure>
         </div>
     </main>
 </body>
+
 </html>
